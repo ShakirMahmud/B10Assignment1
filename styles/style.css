@@ -23,11 +23,25 @@ body {
     margin-top: 16px;
 }
 
+.paragraph_text_style2 {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
 .h3_style {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
     margin: 0;
+}
+
+.h3_style2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .learn_more_button {
@@ -53,6 +67,13 @@ body {
 
 .learn_more_button_anchor a {
     text-decoration: none;
+}
+
+.learn_more_anchor {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
 }
 
 /* header section styles */
@@ -258,4 +279,82 @@ body {
 
 .inspiration_section_yt_link iframe {
     border-radius: 16px;
+}
+
+/* <!-- target section starts here  --> */
+.target_section_container {
+    margin: 0 auto;
+    margin-top: 149px;
+    max-width: 1140px;
+    min-height: 463px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.target_section_content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin: 0 144px 0;
+    max-width: 852px;
+    height: 115px;
+}
+
+.target_section_content>h2 {
+    margin: 0;
+}
+
+.target_section_content>p {
+    margin-top: 24px;
+}
+
+.target_section_cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    width: 1140px;
+    height: 300px;
+
+}
+
+.card_div_1 {
+    padding: 40px;
+    width: 284px;
+    height: 220px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card_div_2 {
+    padding: 40px;
+    width: 284px;
+    height: 220px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card_div_3 {
+    padding: 40px;
+    width: 284px;
+    height: 220px;
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
