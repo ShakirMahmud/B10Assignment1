@@ -358,3 +358,67 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+/* <!-- support section starts here  --> */
+.support_section_container {
+    border: 2px solid red;
+    margin: 0 auto;
+    width: 1140px;
+    height: 314px;
+    padding: 64px 48px 64px 48px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 41px;
+}
+.support_section_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1044px;
+height: 186px;
+}
+.support_h2{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+margin: 0;
+}
+.support_section_content>p{
+    color: white;
+    width: 606px;
+height: 52px;
+}
+.form{
+    display: flex;
+    margin-top: 24px;
+}
+.form>form > input[type="text"] {
+    width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+box-sizing: border-box;
+border: none;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.form > form > input[type="text"]::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+}
+.form>form > input[type="submit"] {
+    width: 120px;
+height: 58px;
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+}
