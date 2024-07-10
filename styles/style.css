@@ -45,7 +45,7 @@ body {
 }
 
 .learn_more_button {
-    width: 150px;
+    width: auto;
     height: 48px;
     padding: 12px 20px 12px 20px;
     display: flex;
