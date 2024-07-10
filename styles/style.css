@@ -79,7 +79,7 @@ body {
 
 /* header section styles */
 .header_section_container {
-    border: 1px dashed rgba(13, 19, 33, 0.7);
+    border: 1px dashed rgba(13, 19, 33, 0.3);
     margin: 0 auto;
     margin-top: 131px;
     width: auto;
