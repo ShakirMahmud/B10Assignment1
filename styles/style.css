@@ -56,13 +56,14 @@ body {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-
+    cursor: pointer;
     text-decoration: none;
 }
 
 .learn_more_button_anchor {
     display: inline-block;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 .learn_more_button_anchor a {
@@ -81,7 +82,7 @@ body {
     border: 1px dashed rgba(13, 19, 33, 0.7);
     margin: 0 auto;
     margin-top: 131px;
-    max-width: 1440px;
+    width: auto;
     min-height: 652px;
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
@@ -130,6 +131,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 /* <!-- why web dev section styles starts here  --> */
@@ -351,7 +353,6 @@ body {
     width: 284px;
     height: 220px;
     border-radius: 16px;
-
     background: rgba(255, 223, 0, 0.05);
     display: flex;
     flex-direction: column;
@@ -361,7 +362,6 @@ body {
 
 /* <!-- support section starts here  --> */
 .support_section_container {
-    border: 2px solid red;
     margin: 0 auto;
     width: 1140px;
     height: 314px;
@@ -371,7 +371,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
-    margin-top: 41px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .support_section_content{
     display: flex;
@@ -421,4 +425,33 @@ font-weight: 600;
 border-radius: 8px;
 border: none;
 background: rgb(255, 255, 255);
+}
+/* footer_section styles here:  */
+.footer_section{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1440px;
+height: 100px;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+
+background-color: rgba(13, 19, 33, 0.03);
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+.footer_section>p{
+    color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+width: 556px;
+height: 24px;
+margin: 0px 16px;
+}
+.footer_icons>a{
+    text-decoration: none;
+    margin-left: 24px;
+    width: 36px;
+height: 36px;
 }
