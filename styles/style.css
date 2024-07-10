@@ -366,7 +366,7 @@ body {
     width: 1140px;
     height: 314px;
     padding: 64px 48px 64px 48px;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/handshake.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -377,81 +377,91 @@ body {
     justify-content: center;
     align-items: center;
 }
-.support_section_content{
+
+.support_section_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1044px;
-height: 186px;
+    height: 186px;
 }
-.support_h2{
+
+.support_h2 {
     color: rgb(255, 255, 255);
-font-size: 32px;
-font-weight: 700;
-margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
 }
-.support_section_content>p{
+
+.support_section_content>p {
     color: white;
     width: 606px;
-height: 52px;
+    height: 52px;
 }
-.form{
+
+.form {
     display: flex;
     margin-top: 24px;
 }
-.form>form > input[type="text"] {
+
+.form>form>input[type="text"] {
     width: 548px;
-height: 57px;
-padding: 19px 20px 19px 20px;
-box-sizing: border-box;
-border: none;
-border-radius: 8px;
-background: rgb(255, 255, 255);
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
-.form > form > input[type="text"]::placeholder{
+
+.form>form>input[type="text"]::placeholder {
     color: rgba(13, 19, 33, 0.4);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
-.form>form > input[type="submit"] {
+
+.form>form>input[type="submit"] {
     width: 120px;
-height: 58px;
-padding: 17px 20px 17px 20px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-border-radius: 8px;
-border: none;
-background: rgb(255, 255, 255);
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 255, 255);
 }
+
 /* footer_section styles here:  */
-.footer_section{
+.footer_section {
     margin: 0 auto;
     margin-top: 80px;
     width: 1440px;
-height: 100px;
-padding: 32px 150px 32px 150px;
-border-radius: 16px;
+    height: 100px;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
 
-background-color: rgba(13, 19, 33, 0.03);
-display: flex;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
 
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
-.footer_section>p{
+
+.footer_section>p {
     color: rgb(13, 19, 33);
-font-size: 20px;
-font-weight: 600;
-width: 556px;
-height: 24px;
-margin: 0px 16px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 556px;
+    height: 24px;
+    margin: 0px 16px;
 }
-.footer_icons>a{
+
+.footer_icons>a {
     text-decoration: none;
     margin-left: 24px;
     width: 36px;
-height: 36px;
+    height: 36px;
 }
